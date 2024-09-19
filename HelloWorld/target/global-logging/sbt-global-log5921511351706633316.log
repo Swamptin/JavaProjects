@@ -1,0 +1,50 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.10.2 (Oracle Corporation Java 23)
+[debug] Load.defaultLoad until apply took 517.994772ms
+[debug]           Load.loadUnit: plugins took 276.072161ms
+[debug]           Load.loadUnit: defsScala took 0.545175ms
+[debug] [Loading] Scanning directory /home/swamptin/IdeaProjects/HelloWorld/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/swamptin/IdeaProjects/HelloWorld/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 88.311942 ms
+[debug]               Load.resolveProject(helloworld-build) took 171.803072ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id helloworld-build, base: /home/swamptin/IdeaProjects/HelloWorld/project, plugins: List(<none>))) took 346.19446ms
+[debug] [Loading] Done in /home/swamptin/IdeaProjects/HelloWorld/project, returning: (helloworld-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 462.232523ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.540931ms
+[debug]         Load.loadUnit(file:/home/swamptin/IdeaProjects/HelloWorld/project/, ...) took 794.163977ms
+[debug]       Load.apply: load took 2177.175497ms
+[debug]       Load.apply: resolveProjects took 16.04103ms
+[debug]       Load.apply: finalTransforms took 191.53175ms
+[debug]       Load.apply: config.delegates took 13.417554ms
+[debug]       Load.apply: Def.make(settings)... took 1045.144786ms
+[debug]       Load.apply: structureIndex took 321.177214ms
+[debug]       Load.apply: mkStreams took 2.370771ms
+[info] loading project definition from /home/swamptin/IdeaProjects/HelloWorld/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 6580.03597ms
+[debug]     Load.loadUnit: defsScala took 0.008679ms
+[debug] [Loading] Scanning directory /home/swamptin/IdeaProjects/HelloWorld
+[debug]       Load.loadUnit: mkEval took 40.658769ms
